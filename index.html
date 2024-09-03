@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h3 class="h3">I am thinking of a number between 1 - 100.</h3>
+        <h3 class="h2">Can you guess it?</h3>
+        <input type="text" placeholder="Num" id="guess" class="text"/>
+
+        <button onclick="play()" id="my_btn" class="btn">GUESS</button>
+
+        <p id="message1" class="p">No.Of Guesses : 0</p>
+        <p id="message2" class="p">Guessed Numbers are :None</p>
+        <p id="message3" class="p"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
